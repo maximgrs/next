@@ -5,19 +5,17 @@ type Props = {};
 
 function Menu({}: Props) {
   return (
-    <div className="menuContainer">
-      <ul>
-        <li>
+    <div>
+      <ul className="flex p-4">
+        <li className="p-2 hover:bg-red-400">
           <Link href="/">Home</Link>
         </li>
-      </ul>
-      <ul>
-        <li>
+
+        <li className="p-2 hover:bg-red-400">
           <Link href="/cars">Cars</Link>
         </li>
-      </ul>
-      <ul>
-        <li>
+
+        <li className="p-2 hover:bg-red-400">
           <Link href="/trucks">Trucks</Link>
         </li>
       </ul>
