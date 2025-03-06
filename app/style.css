@@ -1,0 +1,6 @@
+.menuContainer {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  border-bottom: 1px solid white;
+}

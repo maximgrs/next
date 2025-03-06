@@ -5,7 +5,7 @@ type Props = {};
 
 function Menu({}: Props) {
   return (
-    <div className="items-center justify-items-center">
+    <div className="menuContainer">
       <ul>
         <li>
           <Link href="/">Home</Link>
@@ -18,7 +18,7 @@ function Menu({}: Props) {
       </ul>
       <ul>
         <li>
-          <Link href="/trukcs">Trucks</Link>
+          <Link href="/trucks">Trucks</Link>
         </li>
       </ul>
     </div>
