@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/ui/cars/card";
 import { Car } from "../lib/types/types";
+import CardList from "../components/ui/cars/CardList";
 
 type Props = {};
 
@@ -98,12 +99,5 @@ const cars: Car[] = [
 ];
 
 export default function Cars({}: Props) {
-  return (
-    <div className="p-10">
-      <h1 className="font-bold text-4xl mb-5">Cars</h1>
-      {cars.map((car: Car) => (
-        <Card car={car} />
-      ))}
-    </div>
-  );
+  return <CardList cars={cars} />;
 }
