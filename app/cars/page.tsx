@@ -16,9 +16,9 @@ const car: Car = {
 
 export default function Cars({}: Props) {
   return (
-    <div>
-      <h1>Cars</h1>
-      <Card />
+    <div className="p-10">
+      <h1 className="font-bold text-4xl mb-5">Cars</h1>
+      <Card car={car} />
     </div>
   );
 }
